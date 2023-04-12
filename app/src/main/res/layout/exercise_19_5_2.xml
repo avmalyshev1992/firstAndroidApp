@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/item1"
+        android:layout_width="105dp"
+        android:layout_height="185dp"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/item2"
+        android:layout_width="105dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/item1"
+        android:layout_toEndOf="@id/item1"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/item3"
+        android:layout_width="105dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/item2"
+        android:layout_toEndOf="@id/item2"
+        android:background="@color/colorAccent" />
+
+    <RelativeLayout
+        android:id="@+id/item4"
+        android:layout_width="105dp"
+        android:layout_height="185dp"
+        android:layout_below="@id/item3"
+        android:layout_toEndOf="@id/item3"
+        android:background="@color/colorAccent" />
+
+</RelativeLayout>
